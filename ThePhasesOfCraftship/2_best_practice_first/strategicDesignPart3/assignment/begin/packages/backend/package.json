@@ -21,7 +21,7 @@
     "prettier-watch:darwin:linux": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "prettier-watch:default": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "test": "jest",
-    "test:e2e": "jest --config jest.e2e.config.js",
+    "test:e2e": "jest --config jest.e2e.config.cjs",
     "test:dev": "jest --watchAll"
   },
   "husky": {
@@ -45,6 +45,7 @@
   },
   "dependencies": {
     "@dddforum/shared": "*",
+    "@dddforum/jest-config": "*",
     "@prisma/client": "^4.16.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",

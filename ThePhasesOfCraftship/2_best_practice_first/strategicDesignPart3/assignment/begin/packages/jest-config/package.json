@@ -1,0 +1,8 @@
+{
+  "name": "@dddforum/jest-config",
+  "private": true,
+  "devDependencies": {
+    "@swc/jest": "0.2.36",
+    "jest-extended": "4.0.2"
+  }
+}

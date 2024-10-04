@@ -1,3 +1,10 @@
 {
-  "name": "@dddforum/shared"
+  "name": "@dddforum/shared",
+  "private": true,
+  "devDependencies": {
+    "@dddforum/backend": "*",
+    "jest-cucumber": "4.5.0",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0"
+  }
 }
