@@ -21,6 +21,7 @@
     "prettier-watch:darwin:linux": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "prettier-watch:default": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "test": "jest",
+    "test:e2e": "jest --config jest.e2e.config.js",
     "test:dev": "jest --watchAll"
   },
   "husky": {

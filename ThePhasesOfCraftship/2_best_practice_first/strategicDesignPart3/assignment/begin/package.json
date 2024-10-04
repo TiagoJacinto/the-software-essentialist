@@ -5,8 +5,12 @@
     "packages/*"
   ],
   "scripts": {
+    "test:e2e:backend": "npm run test:e2e --workspace=@dddforum/backend",
+    "test:e2e:frontend": "npm run test:e2e --workspace=@dddforum/frontend",
     "clean": "npm run clean --workspaces --if-present",
-    "build": "npm run build --workspaces --if-present"
+    "build": "npm run build --workspaces --if-present",
+    "start:dev:backend": "npm run start:dev --workspace=@dddforum/backend",
+    "start:dev:frontend": "npm run dev --workspace=@dddforum/frontend"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
