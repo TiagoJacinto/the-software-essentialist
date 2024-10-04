@@ -17,7 +17,7 @@ const Errors = {
 
 function isMissingKeys(data: any, keysToCheckFor: string[]) {
   for (let key of keysToCheckFor) {
-    if (data[key] === undefined) return true;
+    if (!data[key]) return true;
   }
   return false;
 }
